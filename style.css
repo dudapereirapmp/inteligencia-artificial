@@ -3,7 +3,7 @@
     --cor-principal:#13173f ;
     --cor-segundaria: #2b2e49 ;
     --cor-destaque: #4dffe7 ;
-    --cor-texto: #1b7ed0 ;
+    --cor-texto: #41e2ff ;
 
 }
 
@@ -66,7 +66,7 @@ button:hover{
 
 body {
     height: 100vh;
-    background:linear-gradient(to left, blue, orangered, green);
+    background:linear-gradient(to left, blue, rgb(255, 0, 170), green);
     display: flex;
     align-items: center;
     justify-content: center;
