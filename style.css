@@ -1,9 +1,9 @@
 :root{
-    --cor-fundo:#000000 ;
-    --cor-principal:#13173f ;
-    --cor-segundaria: #242d83 ;
-    --cor-destaque: #4dffe7 ;
-    --cor-texto: #41e2ff ;
+    --cor-fundo: #01080E ;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
 
 }
 
@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;   
+    min-height: 100vh;
 }
 
 .caixa-principal{
@@ -21,21 +21,21 @@ body {
     width: 90%;
     max-width: 600px;
     text-align: center;
-    padding: 22px;
-    border: 2px solid #35f7f7;
-    animation: borderTransition 3s infinite alternate;
-    }
+    padding: 20px;
+    border: 2px solid #5BBE42;
+    animation: borderTransition 2s infinite alternate; 
+}
 
-    @keyframes borderTransition{
-        0%{
-            border-color: red;
+@keyframes borderTransition {
+    0% {
+        border-color: red; 
     }
     50% {
-        border-color: blue;
+        border-color: blue; 
     }
     100% {
-        border-color: green;
-        }
+        border-color: green; 
+    }
 }
 
 h1{
@@ -43,7 +43,7 @@ h1{
 }
 
 button {
-    background-color: var(--cor-segundaria);
+    background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
     border-radius: 15px;
@@ -54,30 +54,30 @@ button {
 
 button:hover{
     background-color: var(--cor-destaque);
-    color: var(--cor-destaque);
+    color: var(--cor-principal);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif ;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     height: 100vh;
-    background:linear-gradient(to left, blue, rgb(255, 0, 170), green);
+    background: linear-gradient(to left, blue, orangered, green);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 p:hover {
-    color: green;
+    color: green; 
     font-weight: bold;
 }
 
-.relogio{
+.relogio {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -85,10 +85,10 @@ p:hover {
     width: 550px;
     background: transparent;
     border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 7);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
-.relogio div{
+.relogio div {
     height: 170px;
     width: 150px;
     display: flex;
@@ -96,8 +96,8 @@ p:hover {
     align-items: center;
     justify-content: center;
     color: #6b811a;
-    background: #020b70;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 7);
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
     border-radius: 7px;
     letter-spacing: 3px;
 }
@@ -111,41 +111,41 @@ p:hover {
     font-size: 10px;
 }
 
-header img{
+header img {
     width: 100%;
     height: 50%;
     border-radius: 0%;
-    border: 2px solid #5bbe42;
+    border: 2px solid #5BBE42;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
 h1 {
-    color: #5bbe42;
+    color: #5BBE42;
 }
 
 
-   footer img {
+footer img {
     width: 40px;
     height: 40px;
- }
+}
 
- footer {
+footer {
     display: flex;
     justify-content: center;
- }
+}
 
- footer a {
+footer a {
     margin: 20px;
     text-align: center;
     color: green;
- }
- a {
+}
+a {
     text-decoration: none;
- }
+}
 
- footer p {
+footer p {
     margin-top: 2px;
- }
+}
