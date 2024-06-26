@@ -66,14 +66,14 @@ button:hover{
 
 body {
     height: 100vh;
-    background: linear-gradient(to left, blue, orangered, green);
+    background: linear-gradient(to left, rgb(99, 99, 235), rgb(85, 54, 221), rgb(11, 182, 250));
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 p:hover {
-    color: green; 
+    color: rgb(0, 26, 255); 
     font-weight: bold;
 }
 
