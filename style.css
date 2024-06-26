@@ -66,7 +66,7 @@ button:hover{
 
 body {
     height: 100vh;
-    background: linear-gradient(to left, rgb(99, 99, 235), rgb(85, 54, 221), rgb(11, 182, 250));
+    background: linear-gradient(to left, rgb(155, 92, 238), rgb(67, 107, 240), rgb(0, 87, 248));
     display: flex;
     align-items: center;
     justify-content: center;
